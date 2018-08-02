@@ -102,6 +102,13 @@
  */
 - (NSInteger)sectionForHeaderView:(nonnull UITableViewHeaderFooterView *)headerView;
 
+/*!
+ @desc  Close all sections except a specified.
+ 
+ @param section The section that have not been closed. 
+ */
+- (void)closeAllSectionsExcept:(NSInteger)section;
+
 @end
 
 /*!
